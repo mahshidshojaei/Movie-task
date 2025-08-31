@@ -5,7 +5,14 @@ export default {
     "./src/**/*.{vue,js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      container: {
+        center: true,
+        screens: {
+          xl: "1400px",
+        },
+      },
+    },
   },
   plugins: [],
 }

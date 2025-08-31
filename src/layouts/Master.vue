@@ -3,9 +3,7 @@ const menuIcons = ["notification", "save-2", "magnifier", "profile-circle"];
 </script>
 
 <template>
-  <!-- بک‌گراند کل صفحه -->
   <div class="layout flex flex-col h-screen bg-[#1B1C1F]">
-    <!-- کل محتوا داخل container -->
     <div class="bg-[#242629]">
       <div class="container flex flex-col flex-1 justify-center">
         <div class="flex items-center justify-between">
@@ -31,8 +29,8 @@ const menuIcons = ["notification", "save-2", "magnifier", "profile-circle"];
             </div>
           </div>
           <div class="flex gap-[4px] items-center">
-                <i class="ki-filled ki-left text-[#5A5E66] text-[12px]"></i>
-            <div class="flex gap-[4px] p-[8px]">
+            <i class="ki-filled ki-left text-[#5A5E66] text-[12px]"></i>
+            <div class="flex gap-[4px] py-[8px]">
               <div v-for="(icon, index) in menuIcons" :key="index">
                 <div
                   class="bg-[#1B1C1F] w-[48px] h-[48px] rounded-[4px] flex items-center justify-center"
@@ -47,8 +45,7 @@ const menuIcons = ["notification", "save-2", "magnifier", "profile-circle"];
         </div>
       </div>
     </div>
-    <!-- محتوای صفحات -->
-    <main class="flex-1 py-6 text-white">
+    <main class="flex-1 py-6 text-white container">
       <router-view />
     </main>
   </div>

@@ -70,6 +70,17 @@ import Player from '../components/Player.vue'
     <div class="grid grid-cols-3 mt-[8px]">
        <div class="col-span-2">
         <Player />
+        <div class="flex w-full justify-between mt-4">
+        <div class="flex gap-1">
+          <span class="bg-[#AB070F99] rounded-[4px] p-[12px] text-[13px] font-black">پلیر تلوزیون های سامسونگ</span>
+          <span class="bg-[#242629] rounded-[4px] p-[12px] text-[13px] font-black">پلیر تلوزیون های قدیمی</span>
+          <span class="bg-[#242629] rounded-[4px] p-[12px] text-[13px] font-black">پلیر تلوزیون های قدیمی</span>
+        </div>
+        <div class="flex items-center gap-[4px]">
+          <span class="text-[#9DA5B2] text-[12px]">حین تماشا با مشکلی رو به رو شدید؟</span>
+          <span class="underline decoration-1 bg-[#242629] p-[8px] rounded-[4px] text-[12px]">اعلام مشکل</span>
+        </div>
+      </div>
        </div>
        <div class="col-span-1 flex flex-col items-center gap-2">
               <MovieCard/>

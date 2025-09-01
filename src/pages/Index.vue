@@ -1,5 +1,6 @@
 <script setup>
 import MovieCard from '../components/MovieCard.vue';
+import Player from '../components/Player.vue'
 
 </script>
 <template>
@@ -12,7 +13,7 @@ import MovieCard from '../components/MovieCard.vue';
         <i class="ki-filled ki-left text-[10px] mr-[2px] p-1"></i>
       </button>
     </div>
-    <div class="grid grid-cols-2 items-center mt-[11px]">
+    <div class="grid grid-cols-2 items-center mt-[4px]">
       <div class="flex items-center gap-[8px]">
         <div
           class="bg-[#AB070F] rounded-[4px] p-[2px] flex flex-col items-center gap-[6px] w-[42px] h-[43px]"
@@ -67,9 +68,14 @@ import MovieCard from '../components/MovieCard.vue';
       </div>
     </div>
     <div class="grid grid-cols-3 mt-[8px]">
-       <div class="col-span-2">dcfvgbhj</div>
-       <div class="col-span-1">
+       <div class="col-span-2">
+        <Player />
+       </div>
+       <div class="col-span-1 flex flex-col items-center gap-2">
               <MovieCard/>
+              <MovieCard/>
+              <MovieCard/>
+        <span class="text-[14px] flex gap-2 items-center mt-[16px]">مشاهده همه فیلم ها<i class="fa-regular fa-arrow-left"></i></span>
        </div>
     </div>
   </div>

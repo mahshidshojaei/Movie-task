@@ -4,14 +4,14 @@
   <div class="grid grid-cols-5 px-5 gap-[5px]">
     <div class="col-span-1 relative">
       <img src="../assets/images/image 48.png" alt="" />
-      <div class="absolute bg-[#FB7800] rounded-[4px] px-[6px] py-[1px] bottom-[10px] right-[6px]">
-        <i class="fa-solid fa-fire-flame-curved text-[13px]"></i>
+      <div class="absolute bg-[#FB7800] rounded-[4px] px-[6px] py-[1px] bottom-[5px] right-[6px]">
+        <i class="fa-solid fa-fire-flame-curved text-[11px]"></i>
       </div>
-      <div class="absolute bg-[#245DEF] rounded-[4px] px-[6px] py-[1px] bottom-[10px] right-[31px]">
-        <i class="fa-light fa-closed-captioning text-[13px]"></i>
+      <div class="absolute bg-[#245DEF] rounded-[4px] px-[6px] py-[1px] bottom-[5px] right-[28px]">
+        <i class="fa-light fa-closed-captioning text-[11px]"></i>
       </div>
-      <div class="absolute bg-[#43B100] rounded-[4px] px-[6px] py-[1px] bottom-[10px] right-[61px]">
-        <i class="fa-light fa-microphone-lines text-[13px]"></i>
+      <div class="absolute bg-[#43B100] rounded-[4px] px-[6px] py-[1px] bottom-[5px] right-[55px]">
+        <i class="fa-light fa-microphone-lines text-[11px]"></i>
       </div>
       
     </div>

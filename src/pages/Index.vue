@@ -1,4 +1,7 @@
-<script></script>
+<script setup>
+import MovieCard from '../components/MovieCard.vue';
+
+</script>
 <template>
   <div class="flex flex-col">
     <div class="text-end">
@@ -47,7 +50,7 @@
               /
               <span class="text-[24px]">۴.۵</span>
         </div>
-        <img src="../assets/images/image 8.png" alt="">
+        <img src="../assets/images/IMDB.png" alt="">
        </div>
         <div class="col-span-1 flex gap-[8px] justify-end">
               <div
@@ -62,6 +65,12 @@
                 </div>
         </div>
       </div>
+    </div>
+    <div class="grid grid-cols-3 mt-[8px]">
+       <div class="col-span-2">dcfvgbhj</div>
+       <div class="col-span-1">
+              <MovieCard/>
+       </div>
     </div>
   </div>
 </template>
